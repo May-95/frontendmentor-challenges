@@ -1,6 +1,6 @@
-function Instructions(props) {
+function Instructions() {
   return (
-    <>
+    <div className="instructions">
       <h2>Instructions</h2>
       <ol>
         <li>
@@ -32,7 +32,7 @@ function Instructions(props) {
           needed.
         </li>
       </ol>
-    </>
+    </div>
   );
 }
 

@@ -1,6 +1,6 @@
-function Ingredients(props) {
+function Ingredients() {
   return (
-    <>
+    <div className="ingredients">
       <h2>Ingredients</h2>
       <ul>
         <li>2-3 large eggs</li>
@@ -11,7 +11,7 @@ function Ingredients(props) {
           Optional fillings: cheese, diced vegetables, cooked meats, herbs
         </li>
       </ul>
-    </>
+    </div>
   );
 }
 export default Ingredients;

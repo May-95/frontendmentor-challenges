@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: Outfit, sans-serif;
+}
+
+:root {
+  background-color: hsl(30, 54%, 90%);
+  height: 100vh;
+}
+
+main {
+  max-width: 700px;
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  flex-direction: column;
+  margin: 50px auto 0;
+  border-radius: 20px;
+  color: hsl(30, 10%, 34%);
+}
+
+.introduction {
+  margin: 0 40px;
+}
+
+.ingredients,
+.instructions,
+.nutrition,
+.preparation {
+  margin: 20px 40px 0;
+}
+
+img {
+  border-radius: 7px;
+  margin: 30px 40px 0;
+}
+
+.title {
+  margin: 20px 0 15px;
+  font-family: Young;
+  letter-spacing: 0.5px;
+  font-size: 2.5rem;
+  color: hsl(24, 5%, 18%);
+}
+
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 20px 25px;
+}
+
+.preparation-title {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+li {
+  margin: 10px;
+  padding-left: 15px;
+}
+
+ol,
+ul {
+  padding: 5px 0 0 20px;
+}
+
+.ingredients,
+.instructions {
+  padding-bottom: 20px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-family: Young;
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.instructions {
+  margin-top: 20px;
+}
+
+li::marker {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+  padding-right: 20px;
+}
+
+.nutrition {
+  padding-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+td {
+  padding-left: 30px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.table-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+
+.table-row-border {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition-values {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  padding-left: 0;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: hsl(30, 10%, 34%);
+}
+
+.attribution a {
+  padding-left: 5px;
+  color: hsl(30, 10%, 34%);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    margin: 0;
+  }
+
+  img {
+    margin: 0;
+  }
+
+  *:root {
+    background-color: hsl(0, 0%, 100%);
+  }
+}

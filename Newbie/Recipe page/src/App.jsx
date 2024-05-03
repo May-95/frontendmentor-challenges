@@ -6,13 +6,13 @@ import Preparation from "./components/Preparation";
 
 function App() {
   return (
-    <>
+    <main>
       <Introduction />
       <Preparation />
       <Ingredients />
       <Instructions />
       <Nutrition />
-    </>
+    </main>
   );
 }
 
